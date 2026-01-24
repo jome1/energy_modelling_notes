@@ -1,0 +1,31 @@
+/* Custom CSS for Energy Modelling Notes */
+
+/* Improve code block styling */
+pre {
+    border-radius: 5px;
+}
+
+/* Style admonitions */
+.admonition {
+    border-radius: 5px;
+}
+
+/* Improve table styling */
+table {
+    margin: 1em auto;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Highlight important equations */
+.math {
+    padding: 0.5em;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}

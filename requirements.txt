@@ -1,0 +1,5 @@
+jupyter-book>=1.0.0
+sphinx-book-theme
+myst-nb
+sphinx-design
+sphinxcontrib-bibtex

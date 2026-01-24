@@ -1,0 +1,21 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: 01-introduction
+      - file: 02-setup
+  - caption: Energy System Fundamentals
+    chapters:
+      - file: 03-energy-basics
+      - file: 04-electricity-markets
+  - caption: Modelling Techniques
+    chapters:
+      - file: 05-optimization
+      - file: 06-capacity-expansion
+  - caption: Resources
+    chapters:
+      - file: references
