@@ -1,0 +1,14 @@
+name: energy-modelling-notes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pip
+  - pip:
+      - jupyter-book>=1.0.0
+      - sphinx-book-theme
+      - myst-nb
+      - sphinx-design
+      - sphinxcontrib-bibtex
+      - ghp-import  # For deploying to GitHub Pages

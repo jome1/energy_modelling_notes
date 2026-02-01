@@ -1,5 +1,7 @@
 # Electricity Markets
 
+*Author: [Jonas](intro.md#jonas)*
+
 This chapter introduces electricity market concepts and how they inform energy system models.
 
 ## Market Structure

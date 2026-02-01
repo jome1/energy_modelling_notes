@@ -31,6 +31,10 @@ jobs:
           pip install jupyter-book
           pip install sphinx-book-theme
 
+      - name: Generate author pages
+        run: |
+          python generate_author_pages.py
+
       - name: Build the book
         run: |
           jupyter-book build energy_modelling_notes/

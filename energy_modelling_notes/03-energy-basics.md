@@ -1,5 +1,7 @@
 # Energy System Fundamentals
 
+*Author: [Jonas](intro.md#jonas)*
+
 This chapter covers the fundamental concepts of energy systems.
 
 ## Energy vs Power

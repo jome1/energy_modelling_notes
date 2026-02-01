@@ -29,3 +29,37 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* ===== Author Social Icons ===== */
+.author-icon {
+    font-size: 0.85em;
+    margin-left: 8px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.8;
+}
+
+.author-icon:hover {
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+/* GitHub icon */
+.fa-github.author-icon {
+    color: #181717;
+}
+
+/* LinkedIn icon */
+.fa-linkedin.author-icon {
+    color: #0A66C2;
+}
+
+/* Email icon */
+.fa-envelope.author-icon {
+    color: #181717;
+}
+
+/* Remove underline from icon links in headings */
+h3 a:has(.author-icon) {
+    text-decoration: none;
+    border-bottom: none;
+}

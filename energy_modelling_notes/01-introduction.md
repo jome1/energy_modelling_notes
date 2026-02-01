@@ -1,5 +1,7 @@
 # Introduction to Energy System Modelling
 
+*Author: [Jonas](intro.md#jonas)*
+
 Energy system modelling is a critical tool for understanding and planning the transition to sustainable energy systems.
 
 ## What is Energy System Modelling?

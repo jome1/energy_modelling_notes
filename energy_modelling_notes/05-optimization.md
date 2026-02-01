@@ -1,5 +1,7 @@
 # Optimization for Energy Systems
 
+*Author: [Jonas](intro.md#jonas)*
+
 This chapter introduces optimization techniques used in energy system modelling.
 
 ## Linear Programming

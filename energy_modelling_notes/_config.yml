@@ -6,7 +6,7 @@
 #######################################################################################
 # Book settings
 title: Energy Modelling Notes                 # The title of the book. Will be placed in the left navbar.
-author: Your Name                             # The author of the book
+author: Jonas Meier                             # The author of the book
 copyright: "2026"                             # Copyright year to be placed in the footer
 logo: logo.png                                # A path to the book logo
 
@@ -17,7 +17,7 @@ execute:
   timeout: 900  # 15 minutes
   allow_errors: true
 
-only_build_toc_files: true
+only_build_toc_files: false  # Build orphan pages like author pages
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -59,3 +59,26 @@ sphinx:
     html_static_path: ["_static"]
     html_css_files:
       - custom.css
+    myst_substitutions:
+      # Jonas author data
+      jonas_name: "Jonas"
+      jonas_bio: "**Jonas** is power systems modeller with a passion for open-source modelling tools and sustainable energy transitions."
+      jonas_github: "https://github.com/jome1"
+      jonas_linkedin: "https://www.linkedin.com/in/jonasmeier-res/?locale=en_US"
+      jonas_email: "jnsmr@ens.dk"
+      jonas_highlights: |
+        - 🎓 Background in renewable energy engineering
+        - 💻 Expertise in power system modelling using PyPSA and various Python tools
+        - 🌍 Focus on renewable energy integration and electricity markets
+      jonas_icons: '<a href="https://github.com/jome1"><i class="fa-brands fa-github author-icon"></i></a> <a href="https://www.linkedin.com/in/jonasmeier-res/?locale=en_US"><i class="fa-brands fa-linkedin author-icon"></i></a> <a href="mailto:jnsmr@ens.dk"><i class="fa-solid fa-envelope author-icon"></i></a>'
+      # Julius author data
+      julius_name: "Julius"
+      julius_bio: "**Julius** is a software engineer specializing in scientific computing and reproducible research environments."
+      julius_github: "https://github.com/juliusmeier"
+      julius_linkedin: "https://www.linkedin.com/in/julius-meier-res/"
+      julius_email: "julius@example.com"
+      julius_highlights: |
+        - 🎓 Background in computer science and data engineering
+        - 💻 Expertise in Python, Docker, and CI/CD pipelines
+        - 🔧 Focus on development workflows and environment management
+      julius_icons: '<a href="https://github.com/juliusmeier"><i class="fa-brands fa-github author-icon"></i></a> <a href="https://www.linkedin.com/in/julius-meier-res/"><i class="fa-brands fa-linkedin author-icon"></i></a> <a href="mailto:julius@example.com"><i class="fa-solid fa-envelope author-icon"></i></a>'

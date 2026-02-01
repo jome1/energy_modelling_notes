@@ -1,5 +1,7 @@
 # Environment Setup
 
+*Authors: [Jonas](intro.md#jonas), [Julius](intro.md#julius)*
+
 This chapter guides you through setting up your Python environment for energy system modelling.
 
 ## Quick Start with Google Colab

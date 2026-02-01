@@ -1,5 +1,7 @@
 # Capacity Expansion Planning
 
+*Author: [Jonas](intro.md#jonas)*
+
 This chapter covers capacity expansion planning - determining optimal investments in energy infrastructure.
 
 ## The Capacity Expansion Problem
