@@ -17,7 +17,15 @@ execute:
   timeout: 900  # 15 minutes
   allow_errors: true
 
-only_build_toc_files: false  # Build orphan pages like author pages
+only_build_toc_files: false  # Build orphan pages (like author pages) without listing in sidebar
+
+# Exclude patterns - prevents EISDIR errors from scanning directories
+exclude_patterns:
+  - _build
+  - _static
+  - "**.ipynb_checkpoints"
+  - Thumbs.db
+  - .DS_Store
 
 # Define the name of the latex output file for PDF builds
 latex:

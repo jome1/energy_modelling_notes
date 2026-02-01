@@ -28,8 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install jupyter-book
-          pip install sphinx-book-theme
+          pip install -r requirements.txt
 
       - name: Generate author pages
         run: |
@@ -38,6 +37,10 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build energy_modelling_notes/
+
+      - name: List build output
+        run: |
+          ls -la energy_modelling_notes/_build/html || echo "Build directory not found"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
