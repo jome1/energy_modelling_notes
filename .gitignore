@@ -1,4 +1,5 @@
 # Jupyter Book build artifacts
+_build/
 energy_modelling_notes/_build/
 
 # Python
