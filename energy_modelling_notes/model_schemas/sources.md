@@ -1,1 +1,1 @@
-
+- Agora_Energiewende_2025_Integrated_Planning.png: https://www.agora-energiewende.org/publications/designing-energy-infrastructure-for-a-climate-neutral-europe 
