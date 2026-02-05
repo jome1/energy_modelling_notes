@@ -1,4 +1,4 @@
-name: energy-modelling-notes
+name: emn
 channels:
   - conda-forge
   - defaults
